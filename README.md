@@ -14,7 +14,7 @@ All you need to do is:
 3. Make sure you have docker-compose installed on your machine, else install it (https://docs.docker.com/compose/install/linux/).
 4. Run the following command: docker-compose up -d 
 
-Thats it :) 
+That's it :) 
 
 Now go to browser and try it: 
 http://localhost:8080/
