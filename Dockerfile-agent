@@ -1,7 +1,7 @@
 FROM jenkins/ssh-agent:jdk11
+USER root
 RUN apt-get update
 RUN apt-get upgrade -y
-RUN apt-get install -y python3.8
-RUN apt-get install -y pip
-RUN apt install default-jre
-RUN apt install default-jdk
+RUN apt-get install -y python3
+RUN apt install -y default-jre
+RUN apt install -y default-jdk
