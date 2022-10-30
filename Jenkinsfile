@@ -3,24 +3,19 @@ pipeline {
 
     stages {
         
-        stage("build") {
+        stage("version") {
             
             steps {
-                echo 'building the application...'
-                sh 'python main.py'
+                sh 'pyhton3 --version'
+                
             }
         }    
-        stage("test") {
+        stage("script") {
             
             steps {
-                echo 'testing the application...'
+                sh 'python3 main.py'
             }
-        } 
-        stage("deploy") {
-            
-            steps {
-                echo 'deploying the application...'
-            }
+        
         }
     }    
 }
