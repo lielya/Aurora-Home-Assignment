@@ -7,6 +7,7 @@ pipeline {
             
             steps {
                 echo 'building the application...'
+                sh 'python main.py'
             }
         }    
         stage("test") {
