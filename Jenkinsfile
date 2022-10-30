@@ -6,7 +6,7 @@ pipeline {
         stage("version") {
             
             steps {
-                sh 'pyhton3 --version'
+                sh 'python3 --version'
                 
             }
         }    
